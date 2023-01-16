@@ -1,0 +1,117 @@
+body {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: rgb(4, 30, 60);
+    height: 90px;    
+    padding-top: 10px;
+
+}
+
+img {
+    width: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.logo {
+    margin-left: 80px;
+    top: -12px;
+    display: block;
+    color: white;
+    font-size: 37px;
+    line-height: 0.3;
+    
+}
+
+.download {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 41%;
+    
+    
+}
+
+.forma {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 27%;
+    background-color: rgba(138, 136, 136, 0.195);
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+}
+
+main {
+    background-color: hsl(210, 15%, 89%);
+    height: 500px;
+    position: relative;
+}
+
+footer {
+    background-color: rgb(4, 30, 60);
+    height: 50px;
+    position: relative;
+    color: white;
+}
+
+.download-page {
+
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 45%;
+    color: white;
+    
+}
+
+.btn {
+    display: inline-block;
+    background: rgb(26, 56, 86);
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.btnD {
+    display: inline-block;
+    background: rgb(26, 56, 86);
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.btnU {
+    display: inline-block;
+    background: rgba(105, 106, 107, 0.2);
+    color: #000;
+    padding: 0.7rem 0.4rem;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.copy {
+    margin-left: 20px;
+    display: block;
+    color: white;
+    font-size: 12px;
+    line-height: 4.1;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroluxHelper</title>
+    <link href="/style/style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="body">
+
+    <header class="header">
+        
+      <img src="/style/logo.png">
+      <p class="logo">Electrolux</p>
+        
+    </header>
+    <main class="main">
+        <section class="download">
+        <a class="btn" href="./home/ubuntu/ElxHelper/files/1.xlsx" title="Download">Завантажити базу</a>
+        </section>
+    <br>
+    <br>
+    <section class="forma">
+        <form enctype="multipart/form-data" action="uploads.php" method="POST">
+            <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+            Виберіть файл для завантаження: <input class="btnU" name="uploadedfile" type="file" /><br />
+            <input class="btnD" type="submit" value="Вигрузити файл" />
+        </form>
+
+    </section>
+    </main>
+    <footer>
+        <section class="copy">(c) Electrolux</section>
+    </footer>
+
+</body>
+</html>
