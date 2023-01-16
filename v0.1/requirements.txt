@@ -1,0 +1,4 @@
+PyTelegramBotAPI
+pymongo
+pymongo[srv]
+pymongo[ocsp]

@@ -1,0 +1,6 @@
+PyTelegramBotAPI
+asyncio
+pymongo
+pymongo[srv]
+pymongo[ocsp]
+
