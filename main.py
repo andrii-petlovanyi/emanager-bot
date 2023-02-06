@@ -33,12 +33,6 @@ async def command_start(messa):
 	await bot.send_message(messa.chat.id, start_message, parse_mode='html')
 
 
-@bot.message_handler(commands=['Додати'])
-async def comm_model_add(message):
-	add_message = 'Допоможи мені стати краще😇. Для цього вкажи відсутню модель і я одразу ж займусь її вивченням та пошуком всіх цікавих фішок🤓. \n\nПри введенні моделі використовуй символ "!" на початку слова🙏. \n\nНаприклад: <b>!EWS426BUI</b> \n\nЗрозумів?🙃 \nТоді мерщій набирай 👇'
-	await bot.set_state(message.from_user.id, MyStates.offer, message.chat.id)
-	await bot.send_message(message.chat.id, add_message, parse_mode='html')
-
 
 @bot.message_handler(func=lambda message: message.text == "Додати")
 async def command_model_add(message):
